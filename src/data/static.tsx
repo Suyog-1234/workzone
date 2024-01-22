@@ -1,0 +1,70 @@
+export const industries = [
+    "Information Technology (IT)",
+    "Healthcare",
+    "Finance",
+    "Manufacturing",
+    "Retail",
+    "Education",
+    "Hospitality",
+    "Telecommunications",
+    "Energy",
+    "Construction",
+    "Transportation",
+    "Media and Entertainment",
+    "Professional Services",
+    "Automotive",
+    "Agriculture",
+    "Government/Public Services",
+    "Non-profit/NGO",
+    "Biotechnology",
+    "Pharmaceuticals",
+    "Consumer Goods",
+    "Aerospace",
+    "Mining",
+    "Textiles and Apparel",
+    "Chemicals",
+    "Others",
+];
+
+
+export const businessTypes = [
+    "Corporation",
+    "Limited Liability Company (LLC)",
+    "Partnership",
+    "Sole Proprietorship",
+    "Nonprofit Organization",
+    "Cooperative",
+    "Joint Venture",
+    "Public Company",
+    "Private Company",
+    "Government-Owned",
+    "Franchise",
+    "Other",
+  ];
+
+
+  export const countries = [
+    "United States",
+    "Canada",
+    "United Kingdom",
+    "Germany",
+    "France",
+    "Japan",
+    "Australia",
+    "India",
+    "Brazil",
+    "South Africa",
+  ];
+  
+  export const staffRanges = [
+    "1-50",
+    "51-100",
+    "101-250",
+    "251-500",
+    "501-1000",
+    "1001-5000",
+    "5001-10000",
+    "10001-50000",
+    "50001-100000",
+    "100001 and above",
+  ];

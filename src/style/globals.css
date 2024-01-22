@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background-v1: 0, 0%, 100%;
+    --background-v2: 255, 80%, 98%;
+    --text-v1: 240, 2%, 10%;
+    --text-v2: 240, 2%, 65%;
+    --border-v1: 240, 3%, 80%;
+    --border-v2: 240, 3%, 80%;
+  }
+  .dark {
+    --background-v1: 240, 2%, 5%;
+    --background-v2: 240, 2%, 13%;
+    --text-v1: 0, 0%, 100%;
+    --text-v2: 240, 2%, 65%;
+    --border-v1: 240, 2%, 20%;
+    --border-v2: 240, 2%, 20%;
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+*{
+  @apply box-border m-0 p-0 
+}
+
+body{
+  @apply overflow-x-hidden w-full min-h-screen
+}
+
+
+@layer base{
+   a{
+     @apply text-theme text-sm hover:text-textV1 transition-all duration-300
+   }
+}
